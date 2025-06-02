@@ -8,12 +8,12 @@ function App() {
 
   // Datos para la sección de municipios
   const municipios = [
-    { nombre: 'Tolcayuca', img: '/tolcayuca.jpeg', link: 'https://www.elsoldetoluca.com.mx/analisis/educacion-para-el-desarrollo.-contribuir-desde-lo-local-para-lograr-el-bienestar-10865231.html' },
-    { nombre: 'San martin de las piramides', img: '/san-martin-de-las-piramides.jpeg', link: 'https://www.cronica.com.mx/estados/tecamac-cuenta-mejor-alcantarillado-asegura-odapas.html' },
-    { nombre: 'Teotihuacán', img: '/teotihuacan.jpeg', link: 'https://perfilurbano.com.mx/firman-uam-y-ayuntamiento-de-tecamac-convenio-educativo/' },
-    { nombre: 'Tonanitla', img: '/tonanitla.jpeg', link: 'https://www.jornada.com.mx/2016/07/12/opinion/032a1soc' },
-    { nombre: 'Axapusco', img: '/axapusco.jpeg', link: 'https://www.tvazteca.com/aztecanoticias/notas/jovenes-de-morena-se-registran-para-ocupar-diputaciones-federales' },
-    { nombre: 'Morelos', img: '/dif-morelos.jpg', link: 'https://www.elmonitoredomex.com/post/en-tecámac-quedó-formalmente-instalado-el-ayuntamiento-2022-2024' },
+    { nombre: 'Tolcayuca', img: '/tolcayuca.jpeg', link: 'https://www.tolcayucahidalgo.gob.mx' },
+    { nombre: 'San martin de las piramides', img: '/san-martin-de-las-piramides.jpeg', link: 'https://sanmartindelaspiramides.gob.mx' },
+    { nombre: 'Teotihuacán', img: '/teotihuacan.jpeg', link: 'https://teotihuacan.gob.mx/inicio' },
+    { nombre: 'Tonanitla', img: '/tonanitla.jpeg', link: 'https://tonanitla.gob.mx' },
+    { nombre: 'Axapusco', img: '/axapusco.jpeg', link: 'https://axapusco.edomex.gob.mx' },
+    { nombre: 'Morelos', img: '/dif-morelos.jpg', link: 'https://www.morelos.gob.mx' },
   ];
 
   return (
@@ -116,7 +116,7 @@ function App() {
         {/* Content */}
         <div className="relative max-w-4xl mx-auto px-4 z-10">
           <h1 className="text-3xl sm:text-5xl font-bold mb-4 drop-shadow-lg">
-            Bienvenidos al Sindicato <span className=''>"Medicamentos para el bienestar del Estado de México"</span>
+            <span className=''>"Medicamentos para el bienestar del Estado de México"</span>
           </h1>
           <p className="text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed text-justify">
             Comprometidos con la defensa de los derechos laborales y el bienestar de los profesionales farmacéuticos en México.
@@ -271,7 +271,7 @@ function App() {
             Actividades
           </h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto text-[#7c7c7c] leading-relaxed text-justify">
-            Conoce algunas de las actividades y eventos organizados por el sindicato para promover la formación y el bienestar de nuestros miembros.
+            Conoce algunas de las actividades y eventos organizados por mbem para promover la formación y el bienestar de nuestros miembros.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white/95 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -316,7 +316,7 @@ function App() {
           <div className="bg-[#f9e6eb] text-[#6a1e33] rounded-md p-1 mb-2">
             <h2 className="text-3xl sm:text-4xl font-semibold mb-6">Contacto</h2>
             <p className="text-lg mb-8 max-w-3xl mx-auto text-justify">
-              Ponte en contacto con nosotros para más información o para unirte al sindicato.
+              Ponte en contacto con nosotros para más información o para unirte a MBEM.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -391,9 +391,9 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-[#40121d] text-white py-6 text-center">
-        <p>Sindicato Farmacéutico Nacional - Asociación Civil</p>
+        <p>MBEM - Asociación Civil</p>
         <p>Registro Legal: SFN-1990-00123</p>
-        <p>Av. Salud 123, Col. Centro, CDMX, México | contacto@sindicatofarmaceutico.org</p>
+        <p> C. de Los Maestros, 55740 Tecámac de Felipe Villanueva, Méx. | contacto@sindicatofarmaceutico.org</p>
         <p>© 2025 Todos los derechos reservados.</p>
       </footer>
     </div>
