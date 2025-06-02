@@ -115,8 +115,8 @@ function App() {
         
         {/* Content */}
         <div className="relative max-w-4xl mx-auto px-4 z-10">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 drop-shadow-lg">
-            Bienvenidos al Sindicato Farmacéutico Nacional
+          <h1 className="text-3xl sm:text-5xl font-bold mb-4 drop-shadow-lg">
+            Bienvenidos al Sindicato <span className=''>"Medicamentos para el bienestar del Estado de México"</span>
           </h1>
           <p className="text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed text-justify">
             Comprometidos con la defensa de los derechos laborales y el bienestar de los profesionales farmacéuticos en México.
