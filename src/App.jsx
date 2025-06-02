@@ -193,7 +193,7 @@ function App() {
               <div className="max-w-7xl mx-auto text-center">
                 <h3 className="text-3xl font-bold text-[#6a1e33] mb-6">Municipios Donde Hemos Colaborado</h3>
                 <p className="text-lg text-[#7c7c7c] mb-8 max-w-3xl mx-auto text-justify leading-relaxed">
-                  Conoce los municipios donde hemos trabajado para fortalecer la salud y el bienestar a través de donaciones, campañas y alianzas estratégicas.
+                  Conoce los municipios dónde hemos trabajado para fortalecer la salud y el bienestar a través de donaciones, campañas y alianzas estratégicas.
                 </p>
 
                 {/* Grid de imágenes en móvil (3 columnas) */}
