@@ -298,6 +298,14 @@ function App() {
               />
               <h3 className="text-lg font-semibold text-[#6a1e33]">Donación de medicamentos en el Municipio de Otumba, Estado de México</h3>
             </div>
+            <div className="bg-white/95 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img
+                src="/actividades-4.jpeg"
+                alt="Taller de Capacitación"
+                className="w-full h-40 object-cover rounded-md mb-4"
+              />
+              <h3 className="text-lg font-semibold text-[#6a1e33]">Donación de medicamentos en el Municipio de Donato Guerra, Estado de México</h3>
+            </div>
           </div>
         </div>
       </section>
@@ -315,35 +323,41 @@ function App() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Información de Contacto</h3>
               <p><strong>Correo:</strong> contacto@sindicatofarmaceutico.org</p>
-              <p><strong>Teléfono:</strong> (55) 1234-5678 / (55) 8765-4321</p>
-              <p><strong>Dirección:</strong> Av. Salud 123, Col. Centro, CDMX, México</p>
+              <p><strong>Teléfono:</strong> 55 4803 6582</p>
+              <p><strong>Dirección:</strong> C. de Los Maestros, 55740 Tecámac de Felipe Villanueva, Méx.</p>
               <h3 className="text-xl font-semibold mt-6 mb-4">Redes Sociales</h3>
               <div className="grid grid-cols-3 gap-4 max-w-sm mx-auto">
+                {/* Facebook */}
                 <a
-                  href="https://facebook.com/sindicatofarmaceutico"
+                  href="https://www.facebook.com/profile.php?id=61577090270723"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center p-4 bg-[#6a1e33] rounded-lg shadow-md hover:shadow-lg hover:brightness-110 hover:ring-2 hover:ring-[#e6c2cc] hover:ring-offset-2 transition-all duration-300 transform hover:-translate-y-1"
+                  className="flex items-center justify-center p-4 bg-[#1877F2] rounded-lg shadow-md hover:shadow-lg hover:brightness-110 hover:ring-2 hover:ring-[#aecbfa] hover:ring-offset-2 transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <span className="text-white text-lg font-medium">Facebook</span>
                 </a>
+
+                {/* Instagram */}
                 <a
-                  href="https://instagram.com/sindicatofarmaceutico"
+                  href="https://www.instagram.com/embem.a.s/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center p-4 bg-gradient-to-r from-[#983c4e] to-[#7c7c7c] rounded-lg shadow-md hover:shadow-lg hover:ring-2 hover:ring-[#e6c2cc] hover:ring-offset-2 transition-all duration-300 transform hover:-translate-y-1"
+                  className="flex items-center justify-center p-4 bg-gradient-to-r from-[#f09433] via-[#e6683c] to-[#dc2743] rounded-lg shadow-md hover:shadow-lg hover:ring-2 hover:ring-[#f7c1b7] hover:ring-offset-2 transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <span className="text-white text-lg font-medium">Instagram</span>
                 </a>
+
+                {/* X (Twitter) */}
                 <a
-                  href="https://twitter.com/sindicato_farma"
+                  href="https://x.com/embem_a_s"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center p-4 bg-[#7c7c7c] rounded-lg shadow-md hover:shadow-lg hover:brightness-110 hover:ring-2 hover:ring-[#d9d9d9] hover:ring-offset-2 transition-all duration-300 transform hover:-translate-y-1"
+                  className="flex items-center justify-center p-4 bg-black rounded-lg shadow-md hover:shadow-lg hover:brightness-110 hover:ring-2 hover:ring-gray-400 hover:ring-offset-2 transition-all duration-300 transform hover:-translate-y-1"
                 >
-                  <span className="text-white text-lg font-medium">Twitter</span>
+                  <span className="text-white text-lg font-medium">X</span>
                 </a>
               </div>
+
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-4">Escríbenos</h3>
@@ -365,7 +379,7 @@ function App() {
                 ></textarea>
                 <button
                   type="button"
-                  className="w-full bg-[#6a1e33] text-white p-3 rounded-lg hover:bg-[#5c1a2b]"
+                  className="w-full bg-[#6a1e33] border-1 text-white p-3 rounded-lg hover:bg-[#5c1a2b]"
                 >
                   Enviar
                 </button>
