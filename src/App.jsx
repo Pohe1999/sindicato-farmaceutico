@@ -230,14 +230,14 @@ function App() {
                     Información Legal
                   </h3>
                   <div className="text-left text-lg text-[#7c7c7c] leading-relaxed bg-white/80 p-6 rounded-lg shadow-lg border border-[#e6c2cc]">
-                    <p>
+                    {/*<p>
                       <strong>Figura Legal:</strong> Asociación Civil
                     </p>
                     <p>
                       <strong>Registro Legal:</strong> SFN-1990-00123
-                    </p>
+                    </p> */}
                     <p>
-                      <strong>Equipo Responsable:</strong> Consejo Directivo presidido por Dra. María Elena Gómez
+                      <strong>Equipo Responsable:</strong> Consejo Directivo presidido por Erika Ariadna Monje Garcia <br /> <strong>Vicepresidenta:</strong> Tatiana Alondra Monje Garcia
                     </p>
                   </div>
                 </div>
@@ -322,7 +322,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-semibold mb-4">Información de Contacto</h3>
-              <p><strong>Correo:</strong> contacto@sindicatofarmaceutico.org</p>
+              <p><strong>Correo:</strong> embemasociacion@gmail.com</p>
               <p><strong>Teléfono:</strong> 55 4803 6582</p>
               <p><strong>Dirección:</strong> C. de Los Maestros, 55740 Tecámac de Felipe Villanueva, Méx.</p>
               <h3 className="text-xl font-semibold mt-6 mb-4">Redes Sociales</h3>
@@ -393,7 +393,7 @@ function App() {
       <footer className="bg-[#40121d] text-white py-6 text-center">
         <p>MBEM - Asociación Civil</p>
         <p>Registro Legal: SFN-1990-00123</p>
-        <p> C. de Los Maestros, 55740 Tecámac de Felipe Villanueva, Méx. | contacto@sindicatofarmaceutico.org</p>
+        <p> C. de Los Maestros, 55740 Tecámac de Felipe Villanueva, Méx. | embemasociacion@gmail.com</p>
         <p>© 2025 Todos los derechos reservados.</p>
       </footer>
     </div>
