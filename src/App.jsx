@@ -108,7 +108,7 @@ function App() {
         {/* Background Image with Low Opacity */}
         <div 
           className="absolute inset-0 bg-[url('/main-page-2.jpg')] bg-cover bg-center" 
-          style={{ opacity: 0.55 }}
+          style={{ opacity: 0.65 }}
         ></div>
         {/* Semi-transparent Overlay */}
         <div className="absolute inset-0 bg-[#983c4e] opacity-10"></div>
@@ -227,17 +227,18 @@ function App() {
                 {/* Text Content */}
                 <div className="space-y-6">
                   <h3 className="text-3xl font-bold text-[#6a1e33] text-center md:text-left drop-shadow-md">
-                    Información Legal
+                    Conoce a nuestro equipo
                   </h3>
                   <div className="text-left text-lg text-[#7c7c7c] leading-relaxed bg-white/80 p-6 rounded-lg shadow-lg border border-[#e6c2cc]">
-                    {/*<p>
+                    <p>
                       <strong>Figura Legal:</strong> Asociación Civil
                     </p>
-                    <p>
+                    <br />
+                    {/*<p>
                       <strong>Registro Legal:</strong> SFN-1990-00123
                     </p> */}
                     <p>
-                      <strong>Equipo Responsable:</strong> Consejo Directivo presidido por Erika Ariadna Monje Garcia <br /> <strong>Vicepresidenta:</strong> Tatiana Alondra Monje Garcia
+                      <strong>Equipo Responsable:</strong> Consejo Directivo presidido por Erika Ariadna Monje Garcia <br /> <br /> <strong>Vicepresidenta:</strong> Tatiana Alondra Monje Garcia
                     </p>
                   </div>
                 </div>
