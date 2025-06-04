@@ -234,11 +234,12 @@ function App() {
                       <strong>Figura Legal:</strong> Asociación Civil
                     </p>
                     <br />
-                    {/*<p>
-                      <strong>Registro Legal:</strong> SFN-1990-00123
-                    </p> */}
                     <p>
                       <strong>Equipo Responsable:</strong> Consejo Directivo presidido por Erika Ariadna Monje Garcia <br /> <br /> <strong>Vicepresidenta:</strong> Tatiana Alondra Monje Garcia
+                    </p>
+                    <br />
+                    <p>
+                      <strong>Registro Legal:</strong> Volumen número <strong>461</strong> YCR, Instrumento número <strong>32,120</strong> Folios numero: 15,834, 15,835 Y 15,836.<br />
                     </p>
                   </div>
                 </div>
